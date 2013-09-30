@@ -11,6 +11,7 @@ app.use(express.compress());
 app.use(express.cookieParser());
 app.use(express.bodyParser());
 app.use(express.static(__dirname + '/client'));
+app.use(express.favicon(__dirname + '/client/img/favicon.ico'));
 app.use(app.router);
 
 app.get('/', function(req, res) {
