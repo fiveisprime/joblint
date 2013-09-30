@@ -1,0 +1,44 @@
+<div class="container">
+  <h2>Summary</h2>
+  <p class="grid_12">
+    Found the following fail points:
+  </p>
+  <ul class="grid_12 fails">
+    <li>Culture: {{result.failPoints.culture}}</li>
+    <li>Realism: {{result.failPoints.realism}}</li>
+    <li>Recruiter: {{result.failPoints.recruiter}}</li>
+    <li>Tech: {{result.failPoints.tech}}</li>
+  </ul>
+
+  <h2>Details</h2>
+
+  <p class="grid_12">{{result.errors.length}} error(s):</p>
+
+  <ul class="grid_12">
+    {{#each result.errors}}
+      <li>{{this}}</li>
+    {{/each}}
+  </ul>
+
+  <hr>
+
+  <p class="grid_12">{{result.warnings.length}} warnings(s):</p>
+
+  <ul class="grid_12">
+    {{#each result.warnings}}
+      <li>{{this}}</li>
+    {{/each}}
+  </ul>
+
+  <hr>
+
+  <p class="grid_12">{{result.notices.length}} notices(s):</p>
+
+  <ul class="grid_12">
+    {{#each result.notices}}
+      <li>{{this}}</li>
+    {{/each}}
+  </ul>
+</div>
+
+

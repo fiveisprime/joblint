@@ -1,0 +1,29 @@
+{
+  "name": "joblint-web",
+  "version": "0.0.0",
+  "description": "Joblint as a service using the joblint module.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fiveisprime/joblint.git"
+  },
+  "keywords": [
+    "joblint",
+    "job",
+    "lint"
+  ],
+  "author": "Matt Hernandez <matt@modulus.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fiveisprime/joblint/issues"
+  },
+  "dependencies": {
+    "express": "~3.4.0",
+    "joblint": "~1.0.0",
+    "hbs": "~2.4.0"
+  }
+}
