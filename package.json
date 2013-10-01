@@ -2,10 +2,9 @@
   "name": "joblint-web",
   "mod-project-name": "joblint",
   "version": "0.0.0",
-  "description": "Joblint as a service using the joblint module.",
+  "description": "Paste in a recruiter email/spec to have it linted for issues with sexism, culture, expectations, and recruiter fails.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "repository": {
