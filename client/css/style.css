@@ -89,6 +89,24 @@ body {
   background-color: #ffffff;
 }
 
+input[type=submit] {
+  width: 75px;
+  height: 25px;
+  cursor: pointer;
+  background-color: #DCDCDC;
+  border: none;
+}
+
+input[type=submit]:hover {
+  background-color: #6B6B6B;
+  color: #EFEFEF;
+}
+
+input[type=submit]:active {
+  background-color: #DCDCDC;
+  color: #2A2828;
+}
+
 h2 {
   font-size: 2em;
 }

@@ -1,5 +1,6 @@
 {
   "name": "joblint-web",
+  "mod-project-name": "joblint",
   "version": "0.0.0",
   "description": "Joblint as a service using the joblint module.",
   "main": "server.js",
